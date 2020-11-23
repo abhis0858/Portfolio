@@ -1,0 +1,7 @@
+.header{
+    background-color: #F3F4F6;
+}
+.header-list{
+    display: flex;
+    padding: 0rem 2rem;
+}
