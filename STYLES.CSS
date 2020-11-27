@@ -1,46 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 
 :root{
---primary-color : #8B5CF6;
+--primary-color : #9b5de5;
 
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 .header-list{
     list-style: none;
-    display: flex;
+    display: block;
     padding : 0rem 4rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    text-align: right;
     
-    
+}
+.header{
+    padding-top: 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: large;
 }
 .header-list .list-item{
     
     padding: 0rem 0.5rem;
-    
+    display: inline;
 }
 
-.image{
-}
 
-.links{
-    text-decoration: none;
-}
+
 .home-button{
  color: white;  
  padding: 2rem 2rem;
- border: 3px solid var(--primary-color);
- border-radius: 0.2rem;
- background-color: var(--primary-color);
+ 
 
 }
 
 .right{
-    background-color: #F5F3FF
+    background-color: #9b5de5
     ;
-    
+    border-bottom-left-radius: 1rem;
 }
 hr{
+    margin-bottom: 2rem;
+}
+.image{
+    max-width: 350px;
     margin: auto;
+    display: block;
+    
+}
+.right .header .header-list{
+    text-align: right;
+}
+.container{
+    padding : 0rem 1rem;
+}
+.hero{
+    padding: 2rem;
+}
+.heading{
+    text-align: center;
+    color: #6B7280;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.diff-color{
+    color:var(--primary-color);
+
+}
+.ow{
+    background-color: #DEDEDE;
+  
+}
+
+.sec-pad{
+    padding : 2rem;
+    text-align: center;
+}
+
+.link{
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.b-project{
+    border: 2px solid;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.link-second{
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.inline-list{
+    list-style: none;
+    display: flex;
+    
 }
