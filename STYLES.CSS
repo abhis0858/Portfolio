@@ -99,12 +99,21 @@ hr{
 }
 
 .footer .footer-header{
-    font-size: large;
+    padding: 2rem;
+    font-size: x-large;
     font-weight: bold;
+    color: white;
 }
-
+.footer{
+    text-align: center;
+    display: block;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    
+}
 .inline-list{
     list-style: none;
     display: flex;
+    text-align: center;
     
 }
