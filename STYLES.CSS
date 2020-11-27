@@ -1,7 +1,46 @@
-.header{
-    background-color: #F3F4F6;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+:root{
+--primary-color : #8B5CF6;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 .header-list{
+    list-style: none;
     display: flex;
-    padding: 0rem 2rem;
+    padding : 0rem 4rem;
+    padding-bottom: 1rem;
+    
+    
+}
+.header-list .list-item{
+    
+    padding: 0rem 0.5rem;
+    
+}
+
+.image{
+}
+
+.links{
+    text-decoration: none;
+}
+.home-button{
+ color: white;  
+ padding: 2rem 2rem;
+ border: 3px solid var(--primary-color);
+ border-radius: 0.2rem;
+ background-color: var(--primary-color);
+
+}
+
+.right{
+    background-color: #F5F3FF
+    ;
+    
+}
+hr{
+    margin: auto;
 }
