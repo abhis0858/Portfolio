@@ -89,6 +89,7 @@ hr {
 .sec-pad {
     padding: 2rem;
     text-align: center;
+    margin: 0px;
 }
 
 .link {
@@ -115,6 +116,7 @@ hr {
     font-weight: bold;
     color: white;
 }
+
 
 .footer {
     text-align: center;
@@ -161,4 +163,12 @@ hr {
 
 .container{
     padding: 0.5rem 1rem;
+}
+.list-non-bullet{
+    /* list-style: none; */
+    padding: 0rem;
+}
+
+.link-active{
+    font-weight: bold;
 }
