@@ -1,119 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 
-:root{
---primary-color : #9b5de5;
+:root {
+    --primary-color: #9b5de5;
 
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
-.header-list{
+
+.header-list {
     list-style: none;
     display: block;
-    padding : 0rem 4rem;
+    padding: 0rem 4rem;
     padding-bottom: 2rem;
     text-align: right;
-    
+
 }
-.header{
+
+.header {
     padding-top: 1rem;
     font-weight: bold;
     color: white;
     font-size: large;
 }
-.header-list .list-item{
-    
+
+.header-list .list-item {
+
     padding: 0rem 0.5rem;
     display: inline;
 }
 
 
 
-.home-button{
- color: white;  
- padding: 2rem 2rem;
- 
+.home-button {
+    color: white;
+    padding: 2rem 2rem;
+
 
 }
 
-.right{
-    background-color: #9b5de5
-    ;
+.right {
+    background-color: #9b5de5;
     border-bottom-left-radius: 1rem;
 }
-hr{
+
+hr {
     margin-bottom: 2rem;
 }
-.image{
+
+.image {
     max-width: 350px;
     margin: auto;
     display: block;
-    
+
 }
-.right .header .header-list{
+
+.right .header .header-list {
     text-align: right;
 }
-.container{
-    padding : 0rem 1rem;
+
+.container {
+    padding: 0rem 1rem;
 }
-.hero{
+
+.hero {
     padding: 2rem;
 }
-.heading{
+
+.heading {
     text-align: center;
     color: #6B7280;
     font-weight: bold;
     padding-top: 1rem;
 }
-.diff-color{
-    color:var(--primary-color);
+
+.diff-color {
+    color: var(--primary-color);
 
 }
-.ow{
+
+.ow {
     background-color: #DEDEDE;
-  
+
 }
 
-.sec-pad{
-    padding : 2rem;
+.sec-pad {
+    padding: 2rem;
     text-align: center;
 }
 
-.link{
+.link {
     box-sizing: border-box;
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
 
-.b-project{
+.b-project {
     border: 2px solid;
     border-radius: 0.5rem;
     color: white;
     background-color: var(--primary-color);
 }
 
-.link-second{
+.link-second {
     border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     padding: 2rem;
     font-size: x-large;
     font-weight: bold;
     color: white;
 }
-.footer{
+
+.footer {
     text-align: center;
     display: block;
     background-color: var(--primary-color);
     padding: 2rem;
-    
+    border-top-right-radius: 1rem;
 }
-.inline-list{
+
+.inline-list {
     list-style: none;
     display: flex;
     text-align: center;
+
+}
+
+.non-underline {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: x-large;
+}
+
+.footer-link{
+    text-align: center;
+    text-decoration: none;
+}
+.footer-inline-list{
+    list-style: none;
     
+       
+}
+.footer-inline-list li{
+    display: inline;
+    padding: 0rem 1rem;
+}
+.footer-inline-list a{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
