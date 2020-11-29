@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 :root {
     --primary-color: #9b5de5;
 
@@ -180,4 +180,17 @@ hr {
 }
 .round{
     border-radius: 50%;
+}
+
+.justify{
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+
+    font-size: large;
+}
+
+.demo-img{
+    max-width: 350px;
+    border-radius: 1rem;
+    margin: auto;
 }
