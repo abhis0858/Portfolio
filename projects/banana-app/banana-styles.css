@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body{
+    max-width: 750px;
+    margin: auto;
+    display: block;
+}
+textarea {
+    width: 95%;
+    height: 10vh;
+    display: block;
+    margin: 1rem 0rem;
+    padding: 1rem;
+}
+
+#banana-txt-output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 95%;
+    margin: 1rem 0rem;
+    padding: 1rem;
+}
+
+.minion-image{
+    height: auto;
+    width: 100px;
+    float: left;
+
+}
+
+.container {
+    margin-left: 0rem;
+    padding: 0.5rem;
+}
+
+#btn-translate {
+    font-size: large;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.banana-header {
+    display: block;
+    height: 12vh;
+    background-color:#5a716a ;
+    width: 100%;
+    margin-block-start: 0em;
+    margin-top: 0%;
+    margin-right: 0rem;
+}
+.banana-txt-heading{
+    text-align: center;
+    padding: 1rem;
+    font-weight: bolder;
+    font-family: 'Redressed', cursive;
+    color: beige;
+    font-size: xx-large;
+}
