@@ -12,7 +12,7 @@ textarea {
     padding: 1rem;
 }
 
-#banana-txt-output {
+.banana-txt-output {
     border: 1px solid black;
     height: 10vh;
     width: 95%;
